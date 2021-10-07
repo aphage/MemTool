@@ -29,3 +29,6 @@ var (is_ok, old_protect) = mem.PageERW(new IntPtr(0x10000), 4);
 //do something
 mem.PageRestore(new IntPtr(0x10000), 4 , old_protect);
 ```
+# Thank you
+[www.pinvoke.net](www.pinvoke.net)
+[x64dbg](https://github.com/x64dbg/x64dbg)
