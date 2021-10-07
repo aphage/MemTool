@@ -25,7 +25,7 @@ var buf = mem.Alloc(4);
 mem.Free(buf);
 
 //memory protect
-var (is_ok, old_protect) = mem.PageEWR(new IntPtr(0x10000), 4);
+var (is_ok, old_protect) = mem.PageERW(new IntPtr(0x10000), 4);
 //do something
-mem.Restore(new IntPtr(0x10000), old_protect);
+mem.PageRestore(new IntPtr(0x10000), 4 , old_protect);
 ```
