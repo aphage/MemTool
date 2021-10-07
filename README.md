@@ -1,5 +1,5 @@
 # MemTool
-C# .net Memory Tool library
+C# .net Memory Tool library x86/x64
 
 ```c#
 //open process
