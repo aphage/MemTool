@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemTool", "MemTool\MemTool.csproj", "{C8FB9A22-C935-4FFE-9AC1-2518B833D6B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMemTool-eample", "HelloMemTool-eample\HelloMemTool-eample.csproj", "{AE5F0191-F70D-41A4-98AE-E93E55276551}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloMemTool-example", "HelloMemTool-example\HelloMemTool-example.csproj", "{3684FB68-CAD7-4B8B-9F71-1A82908B4847}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{C8FB9A22-C935-4FFE-9AC1-2518B833D6B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8FB9A22-C935-4FFE-9AC1-2518B833D6B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8FB9A22-C935-4FFE-9AC1-2518B833D6B4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE5F0191-F70D-41A4-98AE-E93E55276551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE5F0191-F70D-41A4-98AE-E93E55276551}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE5F0191-F70D-41A4-98AE-E93E55276551}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE5F0191-F70D-41A4-98AE-E93E55276551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3684FB68-CAD7-4B8B-9F71-1A82908B4847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3684FB68-CAD7-4B8B-9F71-1A82908B4847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3684FB68-CAD7-4B8B-9F71-1A82908B4847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3684FB68-CAD7-4B8B-9F71-1A82908B4847}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -236,7 +236,7 @@ namespace MemTool
         public byte[] Rpm(IntPtr lpBaseAddress, int size)
         {
             var buffer = new byte[size];
-            ReadProcessMemory(handle, lpBaseAddress, buffer, size, out var out_size);
+            ReadProcessMemory(handle, lpBaseAddress, buffer, size, out var _);
             return buffer;
         }
         public T Rpm<T>(IntPtr lpBaseAddress) where T : struct
@@ -273,15 +273,15 @@ namespace MemTool
             return Rpm<T>(IntPtr.Add(address, lastOffset));
         }
 
-        public bool Wpm(IntPtr address, byte[] buffer, int size)
+        public bool Wpm(IntPtr address, byte[] buffer)
         {
-            return WriteProcessMemory(handle, address, buffer, size, out var out_size);
+            return WriteProcessMemory(handle, address, buffer, buffer.Length, out var _);
         }
         public bool Wpm<T>(IntPtr lpBaseAddress, T v) where T : struct
         {
             T[] buffer = new T[] { v };
 
-            return WriteProcessMemory(handle, lpBaseAddress, buffer, Marshal.SizeOf<T>(), out var byteswrite);
+            return WriteProcessMemory(handle, lpBaseAddress, buffer, Marshal.SizeOf<T>(), out var _);
         }
         public bool Wpm<T>(IntPtr lpBaseAddress, int[] offsets, T v) where T : struct
         {
